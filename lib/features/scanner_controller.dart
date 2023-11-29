@@ -46,7 +46,8 @@ Future<void> fetchApi({
   required BuildContext context,
   required String id_number,
 }) async {
-  var url = Uri.parse('http://146.190.86.129/api/check-card');
+  // var url = Uri.parse('http://146.190.86.129/api/check-card');
+  var url = Uri.parse('http://usmgate.org/api/check-card');
 
   Map<String, dynamic> body = {
     'id_number': id_number,
